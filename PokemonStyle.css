@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#pokemon-pics{
+    width: 1000px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}

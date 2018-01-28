@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gotta Catch'em All</title>
+        <link rel="stylesheet" href="PokemonStyle.css">
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script>
+            $(document).ready(function(){
+              //  loop through 1-150
+              for(var idNum = 1; idNum<=150; idNum++){
+                var imgSrc = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + idNum + ".png";
+                $("#pokemon-pics").append("<img src='" + imgSrc + "'>");
+              }
+            });
+        </script>
+    </head>
+    <body>
+        <div id="pokemon-pics">
+          <img src="" alt="">
+        </div> 
+    </body>
+</html>
