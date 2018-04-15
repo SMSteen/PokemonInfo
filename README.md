@@ -1,5 +1,3 @@
-Learning/practice API & Ajax - Week 3 Assignment 
-Using the pokemon api v2, find location of sprite images to display 150 of them
-
-Week 4 Assignment 
-Updated to create a "polodex" displaying information about pokemon when image is selected.
+Javascript Week1 Assignment - Pokemon
+Using the Pokemon API build a page to display pokemon images and a "pokedex" displaying information about pokemon when image is selected.
+Rewritten to ES6 syntax.

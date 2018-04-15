@@ -1,0 +1,36 @@
+.container-fluid{ /* tweak container margins/padding */
+    padding: 25px;
+}
+#pokemon-pics{
+    display: inline-block;
+    width: 65%;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#pokemon-info{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    min-height: 300px;
+    margin: 25px 0px 0px 25px;
+    padding: 10px 20px 20px 20px;    
+    background-color: #d8e3e7;
+    border: 1px solid #002244;
+    box-shadow: 3px 3px 6px #252525;
+}
+h1{
+    font-size: 2rem;
+}
+h2, h2 span{
+    font-size: 1.5rem;
+}
+
+
+span{
+    padding-left: 5px;
+    font-style: italic;
+    color: #252525;
+    font-weight: bold;
+}
